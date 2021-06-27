@@ -31,7 +31,7 @@ body{
 	font-size: 20px;
 	font-family: sans-serif;
 }
-button{
+a{
 	padding: 20px;
   border: 1px #ccc solid;
   display: inline-block;
@@ -42,7 +42,7 @@ button{
   transition: background 500ms ease;
 
 }
-button:hover{
+a:hover{
 	background: orangered;
 }
 img{
@@ -50,7 +50,7 @@ img{
 	height: 565px;
 	margin-right: 60px;
 }
-.work{
+#work{
 	position: absolute;
 	background-color: rgb(60, 60, 60);
 	margin-top: 0px;
@@ -63,7 +63,7 @@ img{
 
 
 }
-.work h2{
+#work h2{
     text-align: center; 
     color: whitesmoke;   
     font-size: 18px; 
